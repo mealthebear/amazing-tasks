@@ -1,6 +1,8 @@
+import Header from './Header.js';
 import React, { Component } from 'react';
+import TaskBoard from './TaskBoard.js';
 
-export default class App extends Component {
+class App extends Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -9,8 +11,11 @@ export default class App extends Component {
     render() {
         return (
             <div>
-                This is React rendering!!!
+                <Header />
+                <TaskBoard />
             </div>
         )
     }
 }
+
+export default App;
