@@ -1,56 +1,56 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .assignee {
-    display: inline-block;
-    text-align: right;
-    width: 45%;
+  display: inline-block;
+  text-align: right;
+  width: 45%;
 }
 
 .header {
-    font-size: 8vw;
-    text-align: center;
+  font-size: 8vw;
+  text-align: center;
 }
 
 .status-block {
-    border-left: 1px black solid;
-    border-right: 1px black solid;
-    box-sizing: border-box;
-    display: inline-block;
-    min-height: 55vw;
-    text-align: center;
-    vertical-align: top;
-    width: 25%;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+  box-sizing: border-box;
+  display: inline-block;
+  min-height: 55vw;
+  text-align: center;
+  vertical-align: top;
+  width: 25%;
 }
 
 .status-block-end {
-    border-right: none;
+  border-right: none;
 }
 
 .status-block-start {
-    border-left: none;
+  border-left: none;
 }
 
 .status-title {
-    border-bottom: 2px solid black;
-    font-size: 2.5vw;
+  border-bottom: 2px solid black;
+  font-size: 2.5vw;
 }
 
 .task {
-    border: 1px solid black;
-    margin: 1.5vw;
-    padding: 1vw;
+  border: 1px solid black;
+  margin: 1.5vw;
+  padding: 1vw;
 }
 
 .task-type {
-    display: inline-block;
-    text-align: left;
-    width: 45%;
+  display: inline-block;
+  text-align: left;
+  width: 45%;
 }
 
 .tasks {
-    font-size: 1.5vw;
-    height: 75%;
+  font-size: 1.5vw;
+  height: 75%;
 }
