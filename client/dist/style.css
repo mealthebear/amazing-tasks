@@ -20,6 +20,7 @@ body {
     border-right: 1px black solid;
     box-sizing: border-box;
     display: inline-block;
+    min-height: 55vw;
     text-align: center;
     vertical-align: top;
     width: 25%;
