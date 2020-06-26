@@ -5,25 +5,37 @@ const TaskBoard = (props) => (
         <div className="status-block">
             <div className="status-title">To Do</div>
             <div className="tasks">
-                <div>Beat Mark Zuckerberg in a Coding Challenge (Assigned to John Doe)</div>
+                <div className="task">
+                    <p>Beat Mark Zuckerberg in a Coding Challenge</p>
+                    <p className="task-type">Task</p><span>John Doe</span>
+                </div>
             </div>
         </div>
         <div className="status-block">
             <div className="status-title">In Progress</div>
             <div className="tasks">
-                <div>Get good at React (Assigned to John Doe)</div>
+                <div className="task">
+                    <p>Get good at React</p>
+                    <p className="task-type">Task</p><span>John Doe</span>
+                </div>
             </div>
         </div>
         <div className="status-block">
             <div className="status-title">Ready for Testing</div>
             <div className="tasks">
-                <div>Banana-inator 3000 Prototype (Assigned to John Doe)</div>
+                <div className="task">
+                    <p>Banana-inator 3000 Prototype</p>
+                    <p className="task-type">Task</p><span>John Doe</span>
+                </div>
             </div>
         </div>
         <div className="status-block">
             <div className="status-title">Done</div>
             <div className="tasks">
-                <div>Watch Cat Videos on YouTube (Assigned to John Doe)</div>
+                <div className="task">
+                    <p>Watch Cat Videos on YouTube</p>
+                    <p className="task-type">Task</p><span>John Doe</span>
+                </div>
             </div>
         </div>
     </div>
