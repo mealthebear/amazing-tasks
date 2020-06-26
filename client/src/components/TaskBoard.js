@@ -3,7 +3,7 @@ import TaskCard from './TaskCard.js';
 
 const TaskBoard = (props) => (
     <div className="task-board">
-        <div className="status-block">
+        <div className="status-block status-block-start">
             <div className="status-title">To Do</div>
                 <TaskCard />
         </div>
@@ -15,7 +15,7 @@ const TaskBoard = (props) => (
             <div className="status-title">Ready for Testing</div>
                 <TaskCard />
         </div>
-        <div className="status-block">
+        <div className="status-block status-block-end">
             <div className="status-title">Done</div>
                 <TaskCard />
         </div>

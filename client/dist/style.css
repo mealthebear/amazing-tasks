@@ -16,10 +16,21 @@ body {
 }
 
 .status-block {
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    box-sizing: border-box;
     display: inline-block;
     text-align: center;
     vertical-align: top;
     width: 25%;
+}
+
+.status-block-end {
+    border-right: none;
+}
+
+.status-block-start {
+    border-left: none;
 }
 
 .status-title {
