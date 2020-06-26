@@ -1,3 +1,4 @@
+import InProgressCards from './InProgressCards.js';
 import React, { Component } from 'react';
 import TaskCard from './TaskCard.js';
 import TodoCards from './TodoCards.js';
@@ -28,7 +29,7 @@ class TaskBoard extends Component {
                 </div>
                 <div className="status-block">
                     <div className="status-title">In Progress</div>
-                        <TaskCard />
+                        <InProgressCards inProgress={this.state.inProgress} />
                 </div>
                 <div className="status-block">
                     <div className="status-title">Ready for Testing</div>
