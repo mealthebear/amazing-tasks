@@ -1,41 +1,30 @@
 import React from 'react';
+import TaskCard from './TaskCard.js';
 
 const TaskBoard = (props) => (
     <div className="task-board">
         <div className="status-block">
             <div className="status-title">To Do</div>
             <div className="tasks">
-                <div className="task">
-                    <p>Beat Mark Zuckerberg in a Coding Challenge</p>
-                    <p className="task-type">Task</p><p className="assignee">John Doe</p>
-                </div>
+                <TaskCard />
             </div>
         </div>
         <div className="status-block">
             <div className="status-title">In Progress</div>
             <div className="tasks">
-                <div className="task">
-                    <p>Get good at React</p>
-                    <p className="task-type">Task</p><p className="assignee">John Doe</p>
-                </div>
+                <TaskCard />
             </div>
         </div>
         <div className="status-block">
             <div className="status-title">Ready for Testing</div>
             <div className="tasks">
-                <div className="task">
-                    <p>Banana-inator 3000 Prototype</p>
-                    <p className="task-type">Task</p><p className="assignee">John Doe</p>
-                </div>
+                <TaskCard />
             </div>
         </div>
         <div className="status-block">
             <div className="status-title">Done</div>
             <div className="tasks">
-                <div className="task">
-                    <p>Watch Cat Videos on YouTube</p>
-                    <p className="task-type">Task</p><p className="assignee">John Doe</p>
-                </div>
+                <TaskCard />
             </div>
         </div>
     </div>
