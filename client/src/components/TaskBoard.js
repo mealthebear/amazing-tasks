@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import TaskCard from './TaskCard.js';
+import TodoCards from './TodoCards.js';
 
 let exampleCard = {
     title: 'Fix a small bug',
@@ -23,7 +24,7 @@ class TaskBoard extends Component {
             <div className="task-board">
                 <div className="status-block status-block-start">
                     <div className="status-title">To Do</div>
-                        <TaskCard />
+                        <TodoCards todo={this.state.todo} />
                 </div>
                 <div className="status-block">
                     <div className="status-title">In Progress</div>
