@@ -1,6 +1,7 @@
 import InProgressCards from './InProgressCards.js';
 import React, { Component } from 'react';
 import TaskCard from './TaskCard.js';
+import TestingCards from './TestingCards.js';
 import TodoCards from './TodoCards.js';
 
 let exampleCard = {
@@ -33,7 +34,7 @@ class TaskBoard extends Component {
                 </div>
                 <div className="status-block">
                     <div className="status-title">Ready for Testing</div>
-                        <TaskCard />
+                        <TestingCards testing={this.state.testing} />
                 </div>
                 <div className="status-block status-block-end">
                     <div className="status-title">Done</div>
