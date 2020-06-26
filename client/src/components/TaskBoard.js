@@ -7,7 +7,7 @@ const TaskBoard = (props) => (
             <div className="tasks">
                 <div className="task">
                     <p>Beat Mark Zuckerberg in a Coding Challenge</p>
-                    <p className="task-type">Task</p><span>John Doe</span>
+                    <p className="task-type">Task</p><p className="assignee">John Doe</p>
                 </div>
             </div>
         </div>
@@ -16,7 +16,7 @@ const TaskBoard = (props) => (
             <div className="tasks">
                 <div className="task">
                     <p>Get good at React</p>
-                    <p className="task-type">Task</p><span>John Doe</span>
+                    <p className="task-type">Task</p><p className="assignee">John Doe</p>
                 </div>
             </div>
         </div>
@@ -25,7 +25,7 @@ const TaskBoard = (props) => (
             <div className="tasks">
                 <div className="task">
                     <p>Banana-inator 3000 Prototype</p>
-                    <p className="task-type">Task</p><span>John Doe</span>
+                    <p className="task-type">Task</p><p className="assignee">John Doe</p>
                 </div>
             </div>
         </div>
@@ -34,7 +34,7 @@ const TaskBoard = (props) => (
             <div className="tasks">
                 <div className="task">
                     <p>Watch Cat Videos on YouTube</p>
-                    <p className="task-type">Task</p><span>John Doe</span>
+                    <p className="task-type">Task</p><p className="assignee">John Doe</p>
                 </div>
             </div>
         </div>

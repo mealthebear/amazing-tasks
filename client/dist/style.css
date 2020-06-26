@@ -3,6 +3,13 @@ body {
     padding: 0;
 }
 
+.assignee {
+    display: inline-block;
+    padding-right: 0.5vw;
+    text-align: right;
+    width: 45%;
+}
+
 .header {
     font-size: 8vw;
     text-align: center;
@@ -30,7 +37,9 @@ body {
 
 .task-type {
     display: inline-block;
-    margin-right: 1vw;
+    padding-left: 0.5vw;
+    text-align: left;
+    width: 45%;
 }
 
 .tasks {
