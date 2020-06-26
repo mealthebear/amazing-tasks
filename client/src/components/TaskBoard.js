@@ -1,3 +1,4 @@
+import DoneCards from './DoneCards.js';
 import InProgressCards from './InProgressCards.js';
 import React, { Component } from 'react';
 import TaskCard from './TaskCard.js';
@@ -38,7 +39,7 @@ class TaskBoard extends Component {
                 </div>
                 <div className="status-block status-block-end">
                     <div className="status-title">Done</div>
-                        <TaskCard />
+                        <DoneCards done={this.state.done} />
                 </div>
             </div>
         )
