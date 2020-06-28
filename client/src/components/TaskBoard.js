@@ -5,18 +5,43 @@ import TaskCard from './TaskCard.js';
 import TestingCards from './TestingCards.js';
 import TodoCards from './TodoCards.js';
 
-let exampleCard = {
+let exampleTaskDb = [{
   assignee: 'John Doe',
   status: 'todo',
   title: 'Fix a small bug',
   type: 'Bug',
-};
+  }, {
+  assignee: 'Jane Doe',
+  status: 'progress',
+  title: 'Redesign the homepage UI',
+  type: 'Task',
+  }, {
+  assignee: 'Joe Shmoe',
+  status: 'test',
+  title: 'Test out new technology',
+  type: 'Task',
+  }, {
+  assignee: 'Josephine Smith',
+  status: 'done',
+  title: 'Become a pro at React',
+  type: 'Task',
+  }, {
+  assignee: 'Jane Doe',
+  status: 'todo',
+  title: 'Schedule meeting with design team',
+  type: 'Task',
+  }, {
+  assignee: 'Joe Shmoe',
+  status: 'progress',
+  title: 'Create functionality for users to sort todos',
+  type: 'New Feature',
+  }];
 
 class TaskBoard extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      allTasks: [exampleCard],
+      allTasks: exampleTaskDb,
       done: [],
       progress: [],
       test: [],
