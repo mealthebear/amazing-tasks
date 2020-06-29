@@ -47,7 +47,12 @@ class TaskBoard extends Component {
       test: [],
       todo: [],
     };
+    this.componentDidMount = this.componentDidMount.bind(this);
     this.sortTasks = this.sortTasks.bind(this);
+  }
+
+  componentDidMount() {
+    this.sortTasks();
   }
 
   sortTasks() {
@@ -81,7 +86,7 @@ class TaskBoard extends Component {
     return (
       <div className="task-board">
         <div className="status-block status-block-start">
-          <div className="status-title" onClick={this.sortTasks}>To Do</div>
+          <div className="status-title">To Do</div>
             <TodoCards todo={this.state.todo} />
         </div>
         <div className="status-block">
