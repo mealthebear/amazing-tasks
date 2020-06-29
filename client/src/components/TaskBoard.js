@@ -1,5 +1,6 @@
 import DoneCards from './DoneCards.js';
 import InProgressCards from './InProgressCards.js';
+import Modal from './Modal.js';
 import React, { Component } from 'react';
 import TaskCard from './TaskCard.js';
 import TestingCards from './TestingCards.js';
@@ -85,6 +86,7 @@ class TaskBoard extends Component {
   render() {
     return (
       <div className="task-board">
+        <Modal />
         <div className="status-block status-block-start">
           <div className="status-title">To Do</div>
             <TodoCards todo={this.state.todo} />

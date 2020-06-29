@@ -44,6 +44,15 @@ body {
   padding: 1vw;
 }
 
+#task-modal {
+  background-color: #eee;
+  border: 2px black solid;
+  height: 36vw;
+  left: calc(50% - 18vw);
+  position: absolute;
+  width: 36vw;
+}
+
 .task-type {
   display: inline-block;
   text-align: left;
